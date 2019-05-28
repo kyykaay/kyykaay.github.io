@@ -71,9 +71,26 @@ $headers = 'From: '.$senderemail."\r\n".
 ?>
  
 <!-- include your own success html here -->
- 
-Thank you for contacting me. I will be in touch with you very soon.
- 
+<DOCTYPE HTML>
+<html>
+	<head>
+		<title>Kylie - Certified Personal Trainer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+			<!-- Header -->
+				<section id="header" class="wrapper">
+					<!-- Logo -->
+						<div id="logo">
+							<h1>Thank you for contacting me, I will be in touch with you soon</h1>
+						</div>
+				</section>
+		</div>
+	</body>
+</html>
 <?php
  
 }
